@@ -11,8 +11,8 @@ spec:
       sourceRef:
         kind: HelmRepository
         name: bitnami
-      values: 
-        architecture: standalone      
+  values: 
+    architecture: standalone      
   interval: 5m0s
   releaseName: redis
   targetNamespace: default
